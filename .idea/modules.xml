@@ -3,9 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/pet-clinic-spring.iml" filepath="$PROJECT_DIR$/.idea/pet-clinic-spring.iml" />
-      <module fileurl="file://$PROJECT_DIR$/petclinic/petclinic.iml" filepath="$PROJECT_DIR$/petclinic/petclinic.iml" />
-      <module fileurl="file://$PROJECT_DIR$/petclinic/ptdata/ptdata.iml" filepath="$PROJECT_DIR$/petclinic/ptdata/ptdata.iml" />
-      <module fileurl="file://$PROJECT_DIR$/petclinic/ptweb/ptweb.iml" filepath="$PROJECT_DIR$/petclinic/ptweb/ptweb.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ptdata/ptdata.iml" filepath="$PROJECT_DIR$/ptdata/ptdata.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ptweb/ptweb.iml" filepath="$PROJECT_DIR$/ptweb/ptweb.iml" />
     </modules>
   </component>
 </project>

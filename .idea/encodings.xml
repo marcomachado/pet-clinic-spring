@@ -7,5 +7,11 @@
     <file url="file://$PROJECT_DIR$/petclinic/ptweb/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/petclinic/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/petclinic/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ptdata/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ptdata/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ptweb/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ptweb/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
   </component>
 </project>

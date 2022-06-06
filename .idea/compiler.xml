@@ -12,6 +12,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="pet-clinic-spring" target="11" />
       <module name="petclinic" target="11" />
       <module name="ptdata" target="11" />
       <module name="ptweb" target="11" />
