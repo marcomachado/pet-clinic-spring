@@ -1,10 +1,7 @@
-package main.masm.petclinic.model;
+package main.com.masm.petclinic.model;
 
-import lombok.*;
-
-import javax.persistence.*;
-import java.util.HashSet;
-import java.util.Set;
+import lombok.Getter;
+import lombok.Setter;
 
 /**
  * Created by jt on 7/13/18.
@@ -14,6 +11,7 @@ import java.util.Set;
 
 public class Vet extends Person {
 
+    public Vet(){}
     public Vet(Long id, String firstName, String lastName) {
         super(id, firstName, lastName);
     }

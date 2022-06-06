@@ -1,12 +1,9 @@
-package main.masm.petclinic.model;
+package main.com.masm.petclinic.model;
 
-import lombok.AllArgsConstructor;
 import lombok.Getter;
-import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 import javax.persistence.Column;
-import javax.persistence.MappedSuperclass;
 
 /**
  * Created by jt on 7/13/18.
@@ -15,7 +12,7 @@ import javax.persistence.MappedSuperclass;
 @Setter
 
 public class Person extends BaseEntity {
-
+    public Person(){}
     public Person(Long id, String firstName, String lastName) {
         super(id);
         this.firstName = firstName;

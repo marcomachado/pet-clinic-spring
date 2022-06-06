@@ -1,6 +1,6 @@
-package main.masm.petclinic.services;
+package main.com.masm.petclinic.services;
 
-import main.masm.petclinic.model.Owner;
+import main.com.masm.petclinic.model.Owner;
 
 import java.util.List;
 

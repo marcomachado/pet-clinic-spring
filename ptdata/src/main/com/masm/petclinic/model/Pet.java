@@ -1,12 +1,9 @@
-package main.masm.petclinic.model;
+package main.com.masm.petclinic.model;
 
-import lombok.*;
-import org.springframework.format.annotation.DateTimeFormat;
+import lombok.Getter;
+import lombok.Setter;
 
-import javax.persistence.*;
 import java.time.LocalDate;
-import java.util.HashSet;
-import java.util.Set;
 
 /**
  * Created by jt on 7/13/18.
@@ -26,6 +23,9 @@ public class Pet extends BaseEntity{
 
 
     private LocalDate birthDate;
+
+    public Pet() {
+    }
 
     public Pet(Long id, String name, PetType petType, Owner owner, LocalDate birthDate) {
         super(id);

@@ -1,6 +1,6 @@
-package main.masm.petclinic.services;
+package main.com.masm.petclinic.services;
 
-import main.masm.petclinic.model.Vet;
+import main.com.masm.petclinic.model.Vet;
 
 
 /**

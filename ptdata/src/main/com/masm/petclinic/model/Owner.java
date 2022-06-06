@@ -1,11 +1,12 @@
-package main.masm.petclinic.model;
+package main.com.masm.petclinic.model;
 
 import lombok.Builder;
 import lombok.Getter;
-import lombok.NoArgsConstructor;
 import lombok.Setter;
 
-import javax.persistence.*;
+import javax.persistence.CascadeType;
+import javax.persistence.Column;
+import javax.persistence.OneToMany;
 import java.util.HashSet;
 import java.util.Set;
 
@@ -16,6 +17,10 @@ import java.util.Set;
 @Getter
 
 public class Owner extends Person {
+
+    public Owner() {
+
+    }
 
     @Builder
     public Owner(Long id, String firstName, String lastName, String address, String city,

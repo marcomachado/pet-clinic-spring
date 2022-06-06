@@ -1,10 +1,8 @@
-package main.masm.petclinic.model;
+package main.com.masm.petclinic.model;
 
 import lombok.*;
 
 import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.Table;
 
 /**
  * Created by jt on 7/13/18.
