@@ -1,4 +1,4 @@
-package main.com.masm.petclinic.petclinic.controllers;
+package main.com.masm.petclinic.controllers;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
