@@ -1,11 +1,13 @@
 package main.com.masm.petclinic.services.map;
 
+import main.com.masm.petclinic.model.BaseEntity;
+
 import java.util.*;
 
 /**
  * Created by jt on 7/21/18.
  */
-public abstract class AbstractMapService<T, ID extends Long> {
+public abstract class AbstractMapService<T extends BaseEntity, ID extends Long> {
 
     protected Map<Long, T> map = new HashMap<>();
 
@@ -17,8 +19,16 @@ public abstract class AbstractMapService<T, ID extends Long> {
         return map.get(id);
     }
 
-    T save(ID id, T object) {
-        map.put(id, object);
+    T save(T object) {
+        if (object != null) {
+            if (object.getId() == null) {
+                object.setId(getNextId());
+            }
+            map.put(object.getId(), object);
+        } else {
+            throw new RuntimeException("Object cannot be null");
+        }
+
         return object;
     }
 
@@ -31,6 +41,14 @@ public abstract class AbstractMapService<T, ID extends Long> {
     }
 
     private Long getNextId() {
-        return Collections.max(map.keySet()) + 1;
+        Long nextId;
+
+        try {
+            nextId = Collections.max(map.keySet()) + 1;
+        } catch (NoSuchElementException nsee) {
+            nextId=1L;
+        }
+
+        return nextId;
     }
 }
